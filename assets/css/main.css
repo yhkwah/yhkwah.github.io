@@ -2088,7 +2088,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		white-space: nowrap;
+		white-space: normal;
 	}
 
 		input[type="submit"].icon:before,
@@ -2110,9 +2110,9 @@ input, select, textarea {
 			line-height: 4rem;
 			border-radius: 4rem;
 			text-indent: 4rem;
-			overflow: hidden;
+			overflow: visible;
 			padding: 0;
-			white-space: nowrap;
+			white-space: normal;
 		}
 
 			input[type="submit"].icon.solo:before,
@@ -3225,7 +3225,7 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		position: relative;
 		z-index: 1;
-		overflow: hidden;
+		overflow: visible;
 	}
 
 		#wrapper > .bg {
@@ -3620,7 +3620,7 @@ input, select, textarea {
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
+		overflow: visible;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
