@@ -29,12 +29,11 @@
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="media.html">Media</a></li>
-							<li class="active"><a href="design.html">CAD work</a></li>
+							<li><a href="design.html">CAD work</a></li>
 							<li><a href="electrical.html">Electrical work</a></li>
 							<li><a href="norsk.html">Norsk</a></li>
 							<li><a href="documentation.html">Documentation</a></li>
-							<li><a href="code.html">Codes</a></li>
-							<li><a href="risk.html">Gexcon projects</a></li>
+							<li class="active"><a href="code.html">Codes</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/yi-hao-kwah/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -46,17 +45,28 @@
 					<div id="main">
 
 						<!-- Post -->
+						<section class="post">
+							This page documents some of the codes which I have written.
+							Currently in the process of rewriting them in python, because open-source is the way to go! 
+							More codes will follow. 
+						</section>	
 							<section class="post">
-							<article>
-								<header>
-									<h3>Design of laboratory combustors (the second one, that is)</h3>
-								</header>
-								These are some photos of the second combustor! 
-								<span class="image fit"><img src="images/design_combustorV2_1.png"/></span>
-								<span class="image fit"><img src="images/design_combustorV2_2.png"/></span>
-								<span class="image fit"><img src="images/design_flameV2.png"/></span>
-							</article>
+								<p>
+								 Snippets of code (written in Python with <a href="https://cantera.org/">Cantera</a>, an open-source chemical kinetics software used for solving chemically reacting laminar flows). </p>
+								<p>
+							Flame properties (dilatation ratio, laminar flame speed, adiabatic flame temperatures etc.) are computed for various fuel blends. 
+								The Zeldovich numbers and the effective Lewis numbers (either using a volume-based approach (Muppala et al., 2009) or the heat-release approach (Law et al., 2009)) are also computed.
+								</p>
+								<p>
+								Note: not the prettiest set of codes, but it works (as far as I am aware of)!
+								</p>
+							<ul class="actions">
+								<li><a href="https://github.com/yhkwah/yhkwah.github.io/blob/main/1D_adiabaticFreeFlameSimulation.py"  target ="blank"  class="button">Python code: 1-D freely propagating flame <i class="fa fa-code"></i> </a></li>
+							</ul>
+	
 							</section>
+						
+						
 
 
 						<!-- Footer -->
@@ -69,11 +79,9 @@
 								-->
 								<div class="pagination">
 									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="design.html" class="page">1</a>
-									<a href="design_2.html" class="page active">2</a>
-									<a href="design_3.html" class="page">3</a>
-									<a href="design_4.html" class="page">4</a>
+									<a href="code.html" class="page active">1</a>
 									<!--
+									<a href="#" class="page">3</a>
 									<span class="extra">&hellip;</span>
 									<a href="#" class="page">8</a>
 									<a href="#" class="page">9</a>
@@ -88,7 +96,7 @@
 				
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Yi Hao Kwah 2023</li><li>Design: Adapted from <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Yi Hao Kwah 2022</li><li>Design: Adapted from <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
