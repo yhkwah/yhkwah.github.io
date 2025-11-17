@@ -2364,7 +2364,8 @@ input, select, textarea {
 		background-position: calc(100% - 1rem) center;
 		height: 3rem;
 		padding-right: 3rem;
-		text-overflow: ellipsis;
+		/*text-overflow: ellipsis;*/
+		text-overflow: clip;
 	}
 
 		select:focus::-ms-value {
@@ -3714,8 +3715,6 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
-					max-width: none; 
-					overflow: visible;
 				}
 
 					#nav ul.links li a:hover {
