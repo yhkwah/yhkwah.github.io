@@ -3714,6 +3714,8 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					max-width: none; 
+					overflow: visible;
 				}
 
 					#nav ul.links li a:hover {
