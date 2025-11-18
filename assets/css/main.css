@@ -3686,6 +3686,7 @@ input, select, textarea {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
+			/*flex-wrap added with nowrap, so that nav bars display correctly even with 2 or more words */
 			flex-wrap: nowrap;
 			flex-grow: 1;
 			-moz-flex-shrink: 1;
@@ -3715,6 +3716,7 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					/*white-space added with nowrap, so that nav bars display correctly even with 2 or more words */
 					white-space: nowrap;
 				}
 
