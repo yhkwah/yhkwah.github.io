@@ -2088,7 +2088,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		white-space: normal;
+		white-space: nowrap;
 	}
 
 		input[type="submit"].icon:before,
@@ -2110,9 +2110,9 @@ input, select, textarea {
 			line-height: 4rem;
 			border-radius: 4rem;
 			text-indent: 4rem;
-			overflow: visible;
+			overflow: hidden;
 			padding: 0;
-			white-space: normal;
+			white-space: nowrap;
 		}
 
 			input[type="submit"].icon.solo:before,
@@ -2364,8 +2364,7 @@ input, select, textarea {
 		background-position: calc(100% - 1rem) center;
 		height: 3rem;
 		padding-right: 3rem;
-		/*text-overflow: ellipsis;*/
-		text-overflow: clip;
+		text-overflow: ellipsis;
 	}
 
 		select:focus::-ms-value {
@@ -3225,7 +3224,7 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		position: relative;
 		z-index: 1;
-		overflow: visible;
+		overflow: hidden;
 	}
 
 		#wrapper > .bg {
@@ -3620,7 +3619,7 @@ input, select, textarea {
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: visible;
+		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
@@ -3687,6 +3686,7 @@ input, select, textarea {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
+			flex-wrap: nowrap;
 			flex-grow: 1;
 			-moz-flex-shrink: 1;
 			-webkit-flex-shrink: 1;
@@ -3715,6 +3715,7 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					white-space: nowrap;
 				}
 
 					#nav ul.links li a:hover {
