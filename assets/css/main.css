@@ -4691,3 +4691,20 @@ input, select, textarea {
 		}
 
 	}
+
+	.about-me-header {
+		display: flex;
+		align-items: center; /* vertically center */
+		gap: 20px;           /* space between heading and image */
+		}
+
+		.about-me-header h3 {
+		margin: 0;           /* reset default margin */
+		}
+
+		.about-me-header img {
+		border-radius: 50%;  /* optional: make image circular */
+		object-fit: cover;
+		width: 150px;
+		height: 150px;
+		}
