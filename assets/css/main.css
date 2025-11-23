@@ -4696,6 +4696,7 @@ input, select, textarea {
 		display: flex;
 		align-items: center; /* vertically center */
 		gap: 20px;           /* space between heading and image */
+		justify-content: center; /* horizontally center the content */
 		}
 
 		.about-me-header h3 {
